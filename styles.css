@@ -1,0 +1,71 @@
+html{
+  background-color: peachpuff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.headertitle {
+  font-size: 75px;
+  text-align: center;
+  color: rgb(243, 144, 105);
+  text-shadow: .2rem .2rem indianred;
+  letter-spacing: 3px;
+
+}
+a{
+  text-decoration: none;
+  color: lightcoral;
+}
+a:visited{
+  color: maroon;
+}
+a:hover{
+  font-style: italic;
+  text-transform: lowercase;
+}
+a:active{
+  color: orange;
+}
+body p{
+  font-size: 18px;
+  color: indianred;
+}
+body h2{
+  color: rgb(241, 138, 97);
+  text-decoration: underline;
+}
+footer{
+  text-align: right;
+}
+table{
+    border-collapse: collapse;
+    background-color: oldlace;
+    color: rgb(233, 109, 109);
+}
+caption{
+  font-size: 30px;
+  color: indianred;
+  font-weight: bold;
+  text-shadow: .2rem .2rem rgba(240, 128, 128, 0.479);
+}
+thead{
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: pink;
+}
+table, th, td{
+  border: solid 2px maroon;
+  padding: .3rem;
+  width: 720px;
+  margin: auto;
+}
+tbody tr:nth-child(odd){
+  background-color: mistyrose;
+}
+table a{
+  text-decoration: underline;
+}
+tfoot{
+  font-style: italic;
+  font-weight: lighter;
+  background-color: mistyrose;
+}
